@@ -1,6 +1,6 @@
 function equalNeighbors(matrix) {
 
-    let pairs = 0;
+    let pairs = 0; //
 
     for (let index = 0; index < matrix.length - 1; index++) {
 
