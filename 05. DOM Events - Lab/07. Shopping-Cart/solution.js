@@ -12,7 +12,7 @@ function solve() {
 
     function onClick(event) {
 
-        if(event.target.nodeName !== 'BUTTON') {
+        if(event.target.nodeName !== 'BUTTON') { //event.target.nodeName ALWAYS RETURN UPPERCASE
              return;
         }
 
